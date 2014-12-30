@@ -1,0 +1,20 @@
+{
+  "name": "ducke-modem",
+  "version": "0.0.0",
+  "description": "A low level nodejs API for talking with docker",
+  "dependencies": {
+    "readable-stream": "^1.0.33"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:metocean/ducke-modem.git"
+  },
+  "main": "index.js",
+  "author": "Thomas Coats",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/metocean/ducke-modem/issues"
+  },
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/metocean/ducke-modem"
+}
