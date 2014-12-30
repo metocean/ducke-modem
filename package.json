@@ -1,6 +1,6 @@
 {
   "name": "ducke-modem",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A low level nodejs API for talking with docker",
   "dependencies": {
     "readable-stream": "^1.0.33"
