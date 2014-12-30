@@ -35,7 +35,7 @@ Ducke Modem depends on `readable-stream`.
 
 ```js
 var duckemodem = require('ducke-modem');
-modem = new duckemodem.API(duckemodem.Parameters());
+var modem = new duckemodem.API(duckemodem.Parameters());
 
 // get all available containers
 modem
