@@ -232,7 +232,7 @@ module.exports = Modem = (function() {
           return callback(null, JSON.parse(content));
         } catch (_error) {
           e = _error;
-          return callback(e);
+          return callback(null, content);
         }
       };
     })(this));

@@ -141,7 +141,7 @@ module.exports = class Modem
       try
         callback null, JSON.parse content
       catch e
-        callback e
+        callback null, content
   
   _write: (req, data) =>
     if typeof data is 'string' or Buffer.isBuffer data
