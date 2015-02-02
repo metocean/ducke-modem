@@ -154,7 +154,6 @@ module.exports = class Modem
     stream: (callback) =>
       req = @_dial options, (err, res) =>
         return callback err if err?
-        res.setEncoding 'utf8'
         callback null, res
       return req.end() if !options.body?
       @_write req, options.body

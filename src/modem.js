@@ -256,7 +256,6 @@ module.exports = Modem = (function() {
             if (err != null) {
               return callback(err);
             }
-            res.setEncoding('utf8');
             return callback(null, res);
           });
           if (options.body == null) {
